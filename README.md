@@ -2,7 +2,7 @@
 
 ## Инструкция
 
-### Посмотреть на [YouTube](https://www.youtube.com/watch?v=YlpkDVUyhVA)
+### Посмотреть на [YouTube](https://www.youtube.com/watch?v=94R7IHuW-g0)
 
   - Перенесите bash файл vgbackup.sh в папку выше сайта и установить права на выполнение
   - В корень сайта перенесите файл vgbackup.php и запустите его в браузере, после использования этот файл можно удалить

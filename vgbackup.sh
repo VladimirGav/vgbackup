@@ -48,7 +48,7 @@ if [ -z $8 ]; then echo 'Error: empty BACKUP_DATE'; exit; else BACKUP_DATE=$8; f
 #восстанавливаем бд
 gunzip < "$DIR/db.$BACKUP_DATE.sql.gz" | mysql -u$DB_USER -h$DB_SERVER  -P3306 -p$DB_PASS $DB_NAME
 #распаковываем файлы
-tar -C / -xvf $DIR/file.$BACKUP_DATE.tar.gz
+tar -C / -xf $DIR/file.$BACKUP_DATE.tar.gz
 echo "completed"
 exit;
 

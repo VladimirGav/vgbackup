@@ -1,5 +1,6 @@
 #!/bin/bash
-#sh vgbackup.sh "SITE_NAME" "BACKUP_FOLDER" "DB_NAME" "DB_SERVER" "DB_USER" "DB_PASS"
+# sh /Путь к файлу от корня/vgbackup.sh "save" "SITE_NAME" "BACKUP_FOLDER" "DB_NAME" "DB_SERVER" "DB_USER" "DB_PASS"
+# sh /Путь к файлу от корня/vgbackup.sh "reestablish" "SITE_NAME" "BACKUP_FOLDER" "DB_NAME" "DB_SERVER" "DB_USER" "DB_PASS" "2020-05-05"
 
 #текущая директория
 SCRIPT=`realpath $0`
